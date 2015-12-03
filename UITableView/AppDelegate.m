@@ -40,10 +40,13 @@
     
     KCContactTableViewController *mainController=[[KCContactTableViewController alloc]init];
     
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:mainController];
-        
-    self.window.rootViewController=nav;
     
+    
+    UIViewController *vc = [[UIViewController alloc]init];
+    vc.title = @"TEST";
+    vc.view.backgroundColor = [UIColor redColor];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController=nav;
     [self.window makeKeyAndVisible];
     return YES;
 }

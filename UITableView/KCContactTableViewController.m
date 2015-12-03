@@ -31,7 +31,7 @@
     
     //添加搜索框
     [self addSearchBar];
-    self.extendedLayoutIncludesOpaqueBars = YES;
+//    self.extendedLayoutIncludesOpaqueBars = YES;
     
 //    [self setNeedsStatusBarAppearanceUpdate];
 //
